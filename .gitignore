@@ -1,0 +1,14 @@
+# deps and builds
+**/node_modules/
+**/dist/
+*.log
+.DS_Store
+
+# local env / secrets - never commit keys
+.env
+.env.*
+!.env.example
+
+# editor
+.vscode/
+.idea/
