@@ -5,7 +5,16 @@ Two small, paid, one-time tools. No accounts. No third product.
 Rally lives in rally/. $9 one-time. Locked title: Paste the chat. Who said they would.
 Doorlog lives in doorlog/. $4 one-time. Locked title: Walk the place. Print a photo PDF.
 
-Buy links are live Stripe Checkout. Do not fake them. Apps are not hosted yet; do not send public traffic until they are.
+Buy links are live Stripe Checkout. Do not fake them.
+
+Live Pages (gh-pages):
+- Storefront: https://jacobcolburn.github.io/grok-bot/
+- Rally: https://jacobcolburn.github.io/grok-bot/rally/
+- Doorlog: https://jacobcolburn.github.io/grok-bot/doorlog/
+- Post-pay Rally: https://jacobcolburn.github.io/grok-bot/success/rally/
+- Post-pay Doorlog: https://jacobcolburn.github.io/grok-bot/success/doorlog/
+
+Hunter: set each Stripe Payment Link `after_completion` redirect to the matching success URL above (Dashboard only — not in this repo). Apps have no paywall; success pages confirm purchase and deep-link into the live app.
 
 Copy of record: docs/SKUS.md
 Stripe IDs: docs/STRIPE.md

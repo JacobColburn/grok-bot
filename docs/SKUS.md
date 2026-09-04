@@ -34,4 +34,4 @@ Kill Rally if copy claims it is the official plan, if the EXTRACTED banner is go
 
 Kill Doorlog if copy calls it an inspection / tenant app / legal record, if the date stamp is gone, if $4 once is sold as a one-print lock, or if the price is not $4 one-time.
 
-Public traffic stays held until there is a public host that delivers the app after pay.
+Post-pay handoff is site/success/{rally,doorlog}/. No fake unlock. Stripe after_completion must point at those live Pages URLs (Hunter).
