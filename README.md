@@ -1,16 +1,18 @@
 # Fieldbench
 
-Two small, paid, one-time tools. No accounts. No third product.
+Small, paid, one-time tools. No accounts.
 
 Rally lives in rally/. $9 one-time. Locked title: Paste the chat. Who said they would.
 Doorlog lives in doorlog/. $4 one-time. Locked title: Walk the place. Print a photo PDF.
+Invoicepad lives in invoicepad/. $9 one-time. Locked title: Paste the lines. Print the invoice.
 
-Buy links are live Stripe Checkout. Do not fake them.
+Buy links are live Stripe Checkout where listed. Do not fake them.
 
 Live Pages (gh-pages):
 - Storefront: https://jacobcolburn.github.io/grok-bot/
 - Rally: https://jacobcolburn.github.io/grok-bot/rally/
 - Doorlog: https://jacobcolburn.github.io/grok-bot/doorlog/
+- Invoicepad: https://jacobcolburn.github.io/grok-bot/invoicepad/
 - Post-pay Rally: https://jacobcolburn.github.io/grok-bot/success/rally/
 - Post-pay Doorlog: https://jacobcolburn.github.io/grok-bot/success/doorlog/
 
@@ -52,6 +54,21 @@ For a DIY landlord. Walk rooms, shoot photos, print a dated sheet. $4 once is th
 Checkout: https://buy.stripe.com/aFaaEZ9jDgph7OKh0fb7y00
 
 From doorlog/: install dependencies, then use the scripts in package.json.
+
+## Invoicepad - $9 one-time
+
+**Paste the lines. Print the invoice.**
+
+$9 once. Offline in the browser. Not accounting software.
+
+- Invoice or quote toggle; from/to; number; dates; currency; optional tax %.
+- Line items qty/price; notes/terms; Print PDF via window.print.
+- Optional CSV export of lines. localStorage only. No backend.
+- Not QuickBooks. Not a subscription. Not tax filing. App is not paywalled.
+
+Stripe payment link: Hunter creates when ready (see docs/STRIPE.md).
+
+From invoicepad/: install dependencies, then use the scripts in package.json.
 
 ## Honest limits
 

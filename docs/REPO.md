@@ -1,6 +1,6 @@
 # Repo layout
 
-rally/ and doorlog/ are separate Vite apps. Do not merge them. Do not share a src tree. Each has its own package.json, index.html, and src/.
+rally/, doorlog/, and invoicepad/ are separate Vite apps. Do not merge them. Do not share a src tree. Each has its own package.json, index.html, and src/.
 
 site/ is the static storefront (index.html) plus post-pay success pages under site/success/rally/ and site/success/doorlog/.
 
@@ -13,4 +13,4 @@ node_modules and dist are gitignored. Build locally or in CI. Do not commit comp
 
 Landing shots in shots/ are reference only. If UI copy changes, reshoot them.
 
-This GitHub repo is JacobColburn/grok-bot. Fieldbench source lives here. Do not mix Claude or SlashKeys work into it. Publish static Pages from the gh-pages branch (storefront + built apps + success pages).
+This GitHub repo is JacobColburn/grok-bot. Fieldbench source lives here. Do not mix Claude or SlashKeys work into it. Publish static Pages from the gh-pages branch (storefront + built apps + success pages) via .github/workflows/pages.yml.

@@ -2,7 +2,7 @@
 
 This is the copy of record. UI headings, README titles, index.html titles, and storefront language must match it. If a page drifts, kill the page until it matches.
 
-Do not add a third product. Moving-box inventory stays parked unless Doorlog is killed.
+Moving-box inventory stays parked unless a live SKU is killed.
 
 ## Rally - $9 one-time
 
@@ -28,10 +28,28 @@ Not this product: an inspection, a tenant app, a two-party walk, a legal record,
 
 UI bar (do not ship without): export-time date stamp on the print sheet and on photos, and $4 one-time shown in the chrome.
 
+## Invoicepad - $9 one-time
+
+**Title:** Paste the lines. Print the invoice.
+
+**Sub:** $9 once. Offline in the browser. Not accounting software.
+
+**Button:** Print PDF
+
+Paste or enter line items. Branded invoice or quote PDF via the browser print dialog. From/to, number, dates, currency, optional tax %, notes/terms, optional CSV export of lines. localStorage only. App is not paywalled.
+
+Not this product: accounting software, QuickBooks sync, subscriptions, tax filing.
+
+UI bar (do not ship without): locked H1, locked sub, Print PDF button, and $9 one-time shown in the chrome.
+
 ## Kill rules
 
 Kill Rally if copy claims it is the official plan, if the EXTRACTED banner is gone, or if the price is not $9 one-time.
 
 Kill Doorlog if copy calls it an inspection / tenant app / legal record, if the date stamp is gone, if $4 once is sold as a one-print lock, or if the price is not $4 one-time.
 
-Post-pay handoff is site/success/{rally,doorlog}/. No fake unlock. Stripe after_completion must point at those live Pages URLs (Hunter).
+Kill Invoicepad if copy calls it accounting software, if QuickBooks / subscriptions / tax filing appear, if the app is paywalled, if locked H1/sub/Print PDF are gone, or if the price is not $9 one-time.
+
+Kill Invoicepad listing if 0 paid + weak traffic in 7 days post-list.
+
+Post-pay handoff is site/success/{rally,doorlog}/. No fake unlock. Stripe after_completion must point at those live Pages URLs (Hunter). Invoicepad Stripe link and success page are Hunter-only when ready.
